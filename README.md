@@ -7,19 +7,24 @@
 - [Installation](#installation)
 
 ## Model Training
-This project involves training two regression models: **Random Forest Regressor** and **XGBoost Regressor**.
+This project involves training two regression models: Random Forest Regressor and XGBoost Regressor.
 
 
 ### Run the Training Script
-To train the models, run the following command:
+To train the models, run the following command on the train.csv file:
 
 ```bash
 python train.py
+
 
 ## Inference
 To perform inference on a hidden test dataset:
 1. Load the test dataset from a specified path.
 2. Use the trained Random Forest model to predict the target variable.
+
+```bash
+python predict.py
+
 
 ## Performance Metrics
 - **Random Forest RMSE**: 0.0038
