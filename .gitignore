@@ -1,0 +1,5 @@
+**/__pycache__/
+eda/random_forest_model.pkl
+eda/scaler.pkl
+eda/xgboost_model.pkl
+venv/
